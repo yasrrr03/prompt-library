@@ -1,14 +1,14 @@
 # prompt-library
 
 Tested prompts with before/after outputs — my working library as I retrain
-from a politics background into AI product roles.
+from a Politics background into AI roles.
 
 ## Why this exists
 Anyone can write a prompt. The point of this repo is *evidence*: every entry
-shows a naive prompt, it's weak output, an improved prompt, and the better result.
+shows a naive prompt, its weak output, an improved prompt, and the better result.
 
 ## Structure
-   Folder | What's in it |
+ |  Folder | What's in it |
  |---|---|
  | `techniques/` | One file per technique (few-shot, chain-of-thought...), with tests across Claude, ChatGPT & Gemini |
  | `recipes/` | Reusable prompt systems for real workflows (system prompt + examples + test cases) |
